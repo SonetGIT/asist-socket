@@ -1,0 +1,102 @@
+  {
+    "formName": "RegForPayCreatPreviewDocListForm",
+    "defid": "812c9f54-6608-4b38-aa68-b317ffc8ba09",
+    "label": "Назначения",
+    "sections": [
+      {
+        "type": "Section",
+        "name": "RegForPayCreatPreviewDocListData",
+        "label": "Назначения",
+        "contents": [
+          {
+            "type": "Int",
+            "name": "Assignment_No",
+            "label": "№ выплаты",
+            "edit": false,
+            "show": true,
+            "required": false       
+          },
+          {
+            "type": "Int",
+            "name": "AssignmentYear",
+            "label": "Год",
+            "edit": true,
+            "show": true,
+            "required": false
+          },
+          {
+            "type": "Int",
+            "name": "AssignmentMonth",
+            "label": "Месяц",
+            "edit": true,
+            "show": true,
+            "required": false
+          },
+          {
+            "type": "Int",
+            "name": "AssignmentAmount",
+            "label": "Сумма",
+            "edit": true,
+            "show": true,
+            "required": false
+          },
+          {
+            "type": "Text",
+            "name": "Application_No",
+            "label": "№ заяв-я",
+            "edit": true,
+            "show": true,
+            "required": false
+          },
+          {
+            "type": "DateTime",
+            "name": "Application_Date",
+            "label": "Дата регистрации",
+            "edit": true,
+            "show": true,
+            "required": false
+          },
+          {
+            "type":"Text",
+            "name":"PersonIIN",
+            "label":"ПИН",
+            "edit":false,
+            "show":true,
+            "required":true
+          },
+          {
+            "type":"Text",
+            "name":"PersonLast_Name",
+            "label":"Фамилия",
+            "edit":false,
+            "show":true,
+            "required":true
+          },
+          {
+            "type":"Text",
+            "name":"PersonFirst_Name",
+            "label":"Имя",
+            "edit":false,
+            "show":true,
+            "required":true
+          },
+          {
+            "type":"Text",
+            "name":"PersonMiddle_Name",
+            "label":"Отчество",
+            "edit":false,
+            "show":true,
+            "required":true
+          },
+          {
+            "type":"DateTime",
+            "name":"PersonDate_of_Birth",
+            "label":"Дата рождения",
+            "edit":false,
+            "show":true,
+            "required":true
+          }      
+        ]
+      }
+    ]
+}

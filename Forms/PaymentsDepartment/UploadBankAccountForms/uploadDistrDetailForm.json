@@ -1,0 +1,55 @@
+{
+    "formName":"UploadDistrDetailForm",
+    "defid":"3d8b6f97-6563-405f-a6cd-2b5ef002b658",
+    "label":"Журнал загрузки банковских счетов",
+    "sections":[
+        {
+            "type": "Section",
+            "name": "UploadDistrDetailFormData",
+            "label": "Данные загрузки банковских счетов",
+            "contents": [
+                {
+                    "type": "Text",
+                    "name": "LoadDate",
+                    "label": "Дата загрузки",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type": "Text",
+                    "name": "LoadedFile",
+                    "label": "Загруженный файл",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type": "Int",
+                    "name": "SuccessCount",
+                    "label": "Кол-во присвоенных р/счетов",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type": "Int",
+                    "name": "ErrorCount",
+                    "label": "Кол-во ошибочных записей",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type": "Int",
+                    "name": "TotalCount",
+                    "label": "Всего обработанных записей",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                }
+            ]
+        }
+    ]  
+
+}

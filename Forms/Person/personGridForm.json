@@ -1,0 +1,66 @@
+{
+  "formName": "personGridForm",
+  "defid": "48354841-3d37-e5e7-8d15-d79022839691",
+  "label": "Выберите гражданина из списка",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "PersonData",
+      "label": "Данные",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "pin",
+          "label": "ПИН",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "last_name",
+          "label": "Фамилия",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "first_name",
+          "label": "Имя",
+          "edit": true,
+          "show": true
+        },
+        {
+          "type": "Text",
+          "name": "middle_name",
+          "label": "Отчество",
+          "edit": true
+        },
+        {
+          "type": "DateTime",
+          "name": "date_of_birth",
+          "label": "Дата рождения",
+          "edit": true
+        },
+        {
+          "type": "Enum",
+          "name": "sex_id",
+          "label": "Пол",          
+          "enumDef": "b160735b-1ed9-443a-a6c7-2f8cf73a940f",
+          "edit": true
+        },
+        {
+          "type": "Enum",
+          "name": "family_state_id",
+          "label": "Семейное положения",
+          "enumDef": "a160443a-1ed9-735b-a6c7-2f8cf73a940f",
+          "edit": true
+        },
+        {
+          "type": "Enum",
+          "name": "passport_type_id",
+          "label": "Тип документа",          
+          "enumDef": "f73a735b-1ed9-443a-a6c7-3a2f8cf7a160",
+          "edit": true
+        }
+      ]
+    }
+  ]
+}

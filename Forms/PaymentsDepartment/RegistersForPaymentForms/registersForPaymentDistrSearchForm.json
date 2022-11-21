@@ -1,0 +1,83 @@
+{
+  "formName": "RegistersForPaymentDistrSearchForm",
+  "defid": "16ee503f-facf-429f-904d-9324c33c8861",
+  "label": "Банковский реестр на оплату",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "RegistersForPaymentDistrData",
+      "label": "Банковский реестр на оплату",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "Номер",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Int",
+          "name": "Year",
+          "label": "Год",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Int",
+          "name": "Month",
+          "label": "Месяц",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankName",
+          "label": "Наименование",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Int",
+          "name": "PaymentCount",
+          "label": "Кол-во выплат",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "TotalAmount",
+          "label": "Общая сумма",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "TotalAmountWithService",
+          "label": "Общая сумма с услугой",
+          "edit": false,
+          "show": true,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

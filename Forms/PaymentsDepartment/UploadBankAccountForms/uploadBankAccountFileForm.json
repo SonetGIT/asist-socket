@@ -1,0 +1,22 @@
+{
+    "formName":"UploadBankAccountFileForm",
+    "defid":"c335ee92-9d0f-42cc-8ce5-e9286a8f5b03",
+    "label":"Выберите файл для отправки",
+    "sections":[
+        {
+            "type": "Section",
+            "name": "UploadDistrDetailFormData",
+            "label": "Выберите Excel файл с банк-и р/счетами",
+            "contents": [
+                {
+                    "type": "Text",
+                    "name": "LoadedFile",
+                    "label": "Загруженный файл",
+                    "edit": true,
+                    "show": true,
+                    "required": false
+                }
+            ]
+        }
+    ] 
+}

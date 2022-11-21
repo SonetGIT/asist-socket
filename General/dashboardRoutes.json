@@ -1,0 +1,136 @@
+{
+  "level2": [
+    {
+      "name": "administartor",
+      "label": "Администратор",
+      "state": true,
+      "launchProcess": false,
+      "commandType": null,
+      "processKey": null,
+      "parentLabel": null,
+      "level3": [
+        {
+          "commandType": "launchProcess",
+          "processKey": "process_",
+          "name": "usersMenu",
+          "label": "Пользователи",
+          "parentLabel": "Пользователи",
+          "level4": null
+        },
+        {        
+          "commandType": "launchProcess",
+          "processKey": "process_",
+          "name": "createAppMenu",
+          "label": "Создать",
+          "parentLabel": "Создать",
+          "level4": null
+        },
+        {          
+          "commandType": "insertForm",
+          "processKey": "process_db982dae",
+          "name": "insertFormsMenu",
+          "label": "Обновить формы",
+          "parentLabel": "Формы",
+          "level4": null
+        }
+      ]
+    },
+    {
+      "name": "paymentsDepartment",
+      "label": "Выплата АСП",
+      "state": true,
+      "launchProcess": false,
+      "commandType": null,
+      "processKey": null,
+      "parentLabel": null,
+      "level3": [
+        {
+          "name": "closedMonthJournalMenu",
+          "label": "Журнал закрытых месяцев",
+          "state": true,
+          "launchProcess": true,
+          "commandType": "launchProcess",
+          "processKey": "process_e7e8bbc9-a63e-44a3-9f98-b17d6592e7ed",
+          "parentLabel": "Список закрытых месяцев",
+          "level4": [
+            {   
+              "commandType": "launchProcess",
+              "processKey": "process_c7291091-e99a-4f4e-9934-e6ea0bcdf387",
+              "name": "closeMonthMenu",
+              "label": "Закрыть месяц",
+              "parentLabel": "Закрыть месяц"
+            }
+          ]
+        },
+        {
+          "name": "openBankAccountGetList",
+          "label": "Реестры на открытие банковских счетов",
+          "state": true,
+          "launchProcess": true,
+          "commandType": "launchProcess",
+          "processKey": "process_8d77e93f-a747-407f-ba59-7cbec3f2a741",
+          "parentLabel": "Банковские реестры на открытие счетов",
+          "level4": [
+            {
+              "commandType": "launchProcess",
+              "processKey": "process_7dcfb13b-5a5b-4f4e-9ecd-aa795f4647c3",
+              "name": "openBankAccountMenu",
+              "label": "Создать",
+              "parentLabel": "Создать"
+            }
+          ]
+        },
+        {
+          "name": "uploadGetList",
+          "label":"Журнал загрузки",
+          "state":true,
+          "launchProcess":true,
+          "commandType":"launchProcess",
+          "processKey":"process_9f1b8d28-6ee7-4e8a-b66f-b3d24a2152c6",
+          "parentLabel":"Журналы загрузок банк-х счетов",
+          "level4":[
+            {
+              "commandType":"launchProcess",
+              "processKey":"process_f33bd827-551c-4e98-96af-798ceac2ca29",
+              "name":"uploadBankAccount",
+              "label":"Загрузка счетов",
+              "parentLabel":"Загрузка счетов"
+            }
+          ]          
+        },
+        {
+          "name": "registerForPaymentGetList",
+          "label": "Реестры на оплату",
+          "state": true,
+          "launchProcess": true,
+          "commandType": "launchProcess",
+          "processKey": "process_ee81665d-7569-40b7-bad3-6f31888e0d59",
+          "parentLabel": "Банковские реестры на открытие счетов",
+          "level4": [
+            {
+              "commandType": "launchProcess",
+              "processKey": "process_88e31d55-5e67-47c0-bcee-9ea7c44184c0",
+              "name": "openBankAccountMenu",
+              "label": "Создать",
+              "parentLabel": "Создать"
+            },
+            {
+              "commandType": "launchProcess",
+              "processKey": "process_1539a4b2-f2cc-4063-baaf-8b6343b08724",
+              "name": "openBankAccountMenu",
+              "label": "Утвержденные",
+              "parentLabel": "Утвержденные"
+            },
+            {
+              "commandType": "launchProcess",
+              "processKey": "process_285b9d0b-22f5-41b7-9ffa-d09515a3dc0c",
+              "name": "openBankAccountMenu",
+              "label": "Отказанные",
+              "parentLabel": "Отказанные"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

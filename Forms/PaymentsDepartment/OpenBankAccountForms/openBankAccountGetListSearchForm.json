@@ -1,0 +1,24 @@
+{
+    "formName":"OpenBankGetListSearchForm",
+    "defid":"dcafee17-26ea-4b2b-a185-205f8ec90e6f",
+    "label":"Критерии поиска",
+    "sections":[
+        {
+            "type": "Section",
+            "name": "OpenBankAccountData",
+            "label": "Критерии поиска",
+            "contents": [
+                {
+                "type": "Text",
+                "name": "No",
+                "label": "№ реестра",
+                "edit": true,
+                "show": true,
+                "required": false,
+                "searchable": true 
+                }
+            ]
+        }
+    ]  
+
+}

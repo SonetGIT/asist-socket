@@ -1,0 +1,30 @@
+{
+  "formName": "CloseMonthGetListSearchForm",
+  "defid": "7cb952f6-d62a-4b57-b5e3-f1406b58b9e2",
+  "label": "Журнал закрытия месяца",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthGetListSearch",
+      "label": "Критерии поиска",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "Year",
+          "label": "Год",
+          "edit": true,
+          "show": true,
+          "required": false       
+        },
+        {
+          "type": "Int",
+          "name": "Month",
+          "label": "Месяц",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "formName": "userGridForm",
+  "defid": "e5e74841-3d37-4835-8d15-9691d7902283",
+  "label": "Табличная форма пользователей",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "UserData",
+      "label": "Данные",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "username",
+          "label": "Логин",
+          "edit": true
+        },
+        {
+          "type": "Enum",
+          "name": "userRole",
+          "label": "Роль",
+          "enumDef": "42ff2fe7-d54b-4eef-a13f-29c22bc7c789",
+          "edit": true
+        },
+        {
+          "type": "Enum",
+          "name": "partner",
+          "label": "Контрагент",
+          "enumDef": "a160735b-1ed9-443a-a6c7-2f8cf73a940f",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "firstName",
+          "label": "Фамилия",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "lastName",
+          "label": "Имя",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "email",
+          "label": "Email",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "address",
+          "label": "Адрес",
+          "edit": true
+        },
+        {
+          "type": "Text",
+          "name": "phone",
+          "label": "Телефон",
+          "edit": true
+        },
+        {
+          "type": "Bool",
+          "name": "enabled",
+          "label": "Доступен",
+          "edit": true
+        }
+      ]
+    }
+  ]
+}

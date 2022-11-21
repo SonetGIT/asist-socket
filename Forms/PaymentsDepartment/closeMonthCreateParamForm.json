@@ -1,0 +1,67 @@
+{
+  "formName": "CloseMonthCreateParamForm",
+  "defid": "221f7db1-9b4c-4414-b997-138e87918e30",
+  "label": "Журнал закрытия месяца",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthData",
+      "label": "Журнал закрытия месяца",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "Year",
+          "label": "Год",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Int",
+          "name": "Month",
+          "label": "Месяц",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Int",
+          "name": "AssignedCount",
+          "label": "Кол-во назначенных дел",
+          "show": true,
+          "required": false,
+          "searchable": false
+        },
+        {
+          "type": "Int",
+          "name": "RefusedCount",
+          "label": "Кол-во отказанных дел",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": false
+        },
+        {
+          "type": "Int",
+          "name": "TotalCount",
+          "label": "Общее кол-во дел",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": false
+        },
+        {
+          "type": "Text",
+          "name": "Note",
+          "label": "Примечание",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": false
+        }
+      ]
+    }
+  ]
+}

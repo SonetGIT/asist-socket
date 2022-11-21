@@ -1,0 +1,50 @@
+{
+  "formName": "OpenBankAccDistrAppDetailForm",
+  "defid": "5d09f2a8-f422-4378-8b2a-a4604d4a2fdd",
+  "label": "Реестр на открытие счетов",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "bankAccountDistrData",
+      "label": "Реестр на открытие счетов",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "DistrictName",
+          "label": "Район",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "ApplicationCount",
+          "label": "Кол-во чел",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "AccountNo",
+          "label": "№ реестра",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата реестра",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        }
+      ]
+    }
+  ]
+}

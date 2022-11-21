@@ -1,0 +1,62 @@
+{
+  "formName": "CloseMonthGetListGridForm",
+  "defid": "11eac258-4609-4a91-a5b0-388ce5c781e4",
+  "label": "Журналы закрытия месяцев",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthGetList",
+      "label": "Журнал закрытия месяца",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "Year",
+          "label": "Год",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Month",
+          "label": "Месяц",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "AssignedCount",
+          "label": "Кол-во назначенных дел",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "RefusedCount",
+          "label": "Кол-во отказанных дел",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "TotalCount",
+          "label": "Общее кол-во дел",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Note",
+          "label": "Примечание",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

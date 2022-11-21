@@ -1,0 +1,56 @@
+{
+  "formName": "searchUserForm",
+  "defid": "a0ea7b6a-c26a-4636-85fe-5b64c8b78cb2",
+  "label": "Форма поиска пользователей",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "UserData",
+      "label": "Данные",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "userRole",
+          "label": "Роль",
+          "enumDef": "42ff2fe7-d54b-4eef-a13f-29c22bc7c789",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "partner",
+          "label": "Контрагент",
+          "enumDef": "a160735b-1ed9-443a-a6c7-2f8cf73a940f",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "username",
+          "label": "Логин",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "firstName",
+          "label": "Фамилия",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "lastName",
+          "label": "Имя",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

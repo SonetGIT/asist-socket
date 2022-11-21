@@ -1,0 +1,54 @@
+{
+  "formName": "RegistersForPaymentNoDistrGridForm",
+  "defid": "9d941a3b-9d04-435d-acd3-f49609e3aa78",
+  "label": "Районы",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "RegistersForPaymentDistrGetList",
+      "label": "Районы",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "DistrictName",
+          "label": "Районы",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "No",
+          "label": "№ выплаты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "ApplicationCount",
+          "label": "Кол-во дел",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Float",
+          "name": "TotalAmount",
+          "label": "Сумма выплаты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Status",
+          "label": "Статус",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

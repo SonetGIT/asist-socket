@@ -1,0 +1,23 @@
+{
+  "formName": "CloseMonthSearchParamForm",
+  "defid": "c3419212-acaf-46d7-8b2f-ec8056ffd774",
+  "label": "Критерии поиска закрытия месяца",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthData",
+      "label": "Критерии поиска",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "AppNo",
+          "label": "№ заявления",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": true 
+        }
+      ]
+    }
+  ]
+}

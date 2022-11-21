@@ -1,0 +1,70 @@
+{
+    "formName": "UploadDistrDetailtGridForm",
+    "defid":"714b2652-258f-4b2d-87c1-4a80b06e7c06",
+    "label": "Записи",
+    "sections": [
+        {
+            "type": "Section",
+            "name": "UploadDistrDetailGridData",
+            "label": "Записи",
+            "contents": [
+                {
+                    "type":"Int",
+                    "name":"LineNo",
+                    "label":"№ строки",
+                    "edit":false,
+                    "show":true,
+                    "required":false 
+                },
+                {
+                    "type":"Text",
+                    "name":"ItemId",
+                    "label":"Код записи",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Text",
+                    "name":"AccountNo",
+                    "label":"№ счета",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Text",
+                    "name":"PersonName",
+                    "label":"ФИО",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Text",
+                    "name":"OpenDate",
+                    "label":"Дата открытия",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Text",
+                    "name":"Status",
+                    "label":"Статус",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Text",
+                    "name":"Error",
+                    "label":"Ошибка",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                }
+            ]
+        }
+    ]
+}

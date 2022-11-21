@@ -1,0 +1,127 @@
+{
+  "formName": "CloseMonthShowGridForm",
+  "defid": "15afa19b-fcdb-447d-ba68-1fd31c84d58c",
+  "label": "Заявление АСП",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthData",
+      "label": "Список заявлений на АСП",
+      "contents": [
+        {
+          "type":"Text",
+          "name":"No",
+          "label":"Номер заявления",
+          "edit":false,
+          "show":true,
+          "required":false
+        },
+        {
+          "type":"DateTime",
+          "name":"Date",
+          "label":"Дата регистрации в системе",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonIIN",
+          "label":"ПИН",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonLast_Name",
+          "label":"Фамилия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonFirst_Name",
+          "label":"Имя",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonMiddle_Name",
+          "label":"Отчество",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        
+        {
+          "type":"DateTime",
+          "name":"PersonDate_of_Birth",
+          "label":"Дата рождения",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportSeries",
+          "label":"Серия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportNo",
+          "label":"№ пасспорта",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Gender",
+          "label":"Пол",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Application_StateDistrictIdName",
+          "label":"Район",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Application_StateDjamoatIdName",
+          "label":"Джамоат",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Float",
+          "name":"Application_StateBALL",
+          "label":"КОН",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Status",
+          "label":"Статус",
+          "edit":false,
+          "show":true,
+          "required":true
+        }
+     ]
+    }
+  ]
+}

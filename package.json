@@ -1,0 +1,25 @@
+{
+  "name": "wsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "apache-ignite-client": "^1.0.0",
+    "fs": "0.0.1-security",
+    "mkdir": "0.0.2",
+    "mkdirp": "^1.0.4",
+    "node-static": "^0.7.11",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "rimraf": "^3.0.2",
+    "table-to-excel": "^1.0.6",
+    "ws": "^7.0.0"
+  }
+}

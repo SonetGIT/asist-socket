@@ -1,0 +1,30 @@
+{
+  "formName": "OpenBankAccountRegisterGridForm",
+  "defid": "a0817fa0-98f8-41c5-bd0e-b49d9cde4576",
+  "label": "Банковский реестр на открытие счетов",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "BankAccountDistrictGetList",
+      "label": "Районы",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "District",
+          "label": "Районы",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "ApplicationCount",
+          "label": "Кол-во дел",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

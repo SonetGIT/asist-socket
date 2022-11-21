@@ -1,0 +1,1263 @@
+{
+  "formName": "editUserForm",
+  "label": "Форма редактирования пользователей",
+  "defid": "b4c609d3-2b1f-4e11-a8b4-2f16059053c8",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "UserData",
+      "label": "Основные данные",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "userRole",
+          "label": "Роль",
+          "enumDef": "42ff2fe7-d54b-4eef-a13f-29c22bc7c789",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "username",
+          "label": "Логин",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "partner",
+          "label": "Контрагент",
+          "enumDef": "a160735b-1ed9-443a-a6c7-2f8cf73a940f",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "firstName",
+          "label": "Фамилия",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "lastName",
+          "label": "Имя",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "email",
+          "label": "Email",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "address",
+          "label": "Адрес",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "phone",
+          "label": "Телефон",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "exchangeRates",
+          "label": "Изменение курса валют",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "MenuAccessSection",
+      "label": "Доступ к вкладкам меню",
+      "contents": []
+    },
+    {
+      "type": "Section",
+      "name": "administartor",
+      "label": "Администратор",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllAdminFunctions",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "FormsMenu",  
+          "label": "Формы",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "contractsMenu",  
+          "label": "Договора",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "corporateActions",  
+          "label": "Корпоративные действия",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "insertForm",  
+          "label": "Обновить формы",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "usersMenu",
+          "label": "Пользователи",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountsMenu",  
+          "label": "Счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "instructionsMenu",  
+          "label": "Поручения",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "instructionsRegistrarsMenu",  
+          "label": "Поручения рег-р",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "operationDayMenu",  
+          "label": "Операц-й день",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "securitiesMenu",  
+          "label": "Ценные бумаги",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "deponentsMenu",  
+          "label": "Депоненты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "registratorsMenu",  
+          "label": "Регистраторы",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositariesMenu",  
+          "label": "Депозитарии",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "issuersMenu",  
+          "label": "Контрагенты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "partnersMenu",  
+          "label": "Эмитенты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "tradesMenu",  
+          "label": "Торги",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transactionsMenu",  
+          "label": "Транзакции",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountingEntryMenu",  
+          "label": "Проводки",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "reportsMenu",  
+          "label": "Отчеты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "referencesMenu",  
+          "label": "Справочники",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "tradingSystems",
+      "label": "Торговые системы",
+      "contents": [ 
+        { 
+          "type": "Bool",
+          "name": "selectAllTradingFunctions",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },       
+        { 
+          "type": "Bool",
+          "name": "uploadDataToTSSecuritiesMenu",
+          "label": "Выгрузка данных ЦБ в КФБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "loadDataFromTSSecuritiesMenu",
+          "label": "Загрузка данных ЦБ из КФБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "securitiesOrdersHistoryMenu",
+          "label": "История позиций ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "securitiesTradesHistoryMenu",
+          "label": "История торгов ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "uploadDataToTSCurrenciesMenu",
+          "label": "Выгрузка данных ДС в КФБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "loadDataFromTSCurrenciesMenu",
+          "label": "Загрузка данных ДС из КФБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "currenciesOrdersHistoryMenu",
+          "label": "История позиций ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "mainFunctions",
+      "label": "Основные Фунукции",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllMainFunctions",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Bool", 
+          "name": "viewStockSecurityMenu",  
+          "label": "Просмотр позиций по ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Bool", 
+          "name": "viewStockCurrencyMenu",  
+          "label": "Просмотр позиций по ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "collateralBlockingActionsWithSecuritiesMenu",  
+          "label": "Залоговые и блокировочные действия с ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "servicingPrimaryPlacementOfEquitySecuritiesMenu",  
+          "label": "Обслуживание первичного размещения долевых ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depoAccountTransactionsMenu",  
+          "label": "Операции со счетами депо",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "initialPlacementOfGovernmentSecuritiesMenu",  
+          "label": "Первичное размещение ГЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfSecuritiesOnSecuritiesAccountsMenu",  
+          "label": "Перевод ЦБ по счетам депо",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "acceptanceSecuritiesForDepositoryServiceMenu",  
+          "label": "Прием ЦБ на депозитароное обслуживание",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "removalSecuritiesFromDepositoryServicesMenu",  
+          "label": "Снятие ЦБ с депозитарного обслуживания",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountingRightsToSecuritiesMenu",  
+          "label": "Учет прав на ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "storageOfDocumentarySecuritiesMenu",  
+          "label": "Хранение документарных ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "accountingDepartment",
+      "label": "Бухгалтерия",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllAccountingFunctions",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "serviceGroupsMenu",  
+          "label": "Группы услуг",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "serviceTypesMenu",  
+          "label": "Виды услуг",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "currencyRatesMenu",  
+          "label": "Курсы валют",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "VATMenu",  
+          "label": "НДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "tariffsCDMenu",
+          "label": "Тарифы ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "tariffsRegistrarsMenu",
+          "label": "Тарифы регистраторов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "tariffsCorrDepositoryMenu",
+          "label": "Тарифы корр. депозитария",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "сoefficientDepositorsMenu",
+          "label": "Коэф-ты депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "chargeForCDServicesMenu",  
+          "label": "Нач-я за услуги ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transitChargeForCDServicesMenu",  
+          "label": "Тр-е нач-я за услуги ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "paymentsForCDServicesMenu",  
+          "label": "Платежи за услуги ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transitPaymentsForCDServicesMenu",  
+          "label": "Тр-е платежи за услуги ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "paymentReportsMenu",  
+          "label": "Отчеты по платежам",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "mortgageCoverage",
+      "label": "Ипотечное покрытие",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllMortgageFunctions",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },      
+        { 
+          "type": "Bool", 
+          "name": "questionnairesGIKMenu",  
+          "label": "Анкеты ГИК",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "registrationJournalMenu",  
+          "label": "Регистрационыый журнал",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountsGIKMenu",  
+          "label": "Счета ГИК",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "registryMenu",  
+          "label": "Реестр",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "importFileGIKMenu",  
+          "label": "Импорт файла",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "InstructionsAccessSection",
+      "label": "Доступ к типам поручений",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllInstructionTypes",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "blockingCashInstruction",
+          "label": "Блокирование ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingCashInstruction", 
+          "label": "Депонирование денежных средств (ДС)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingCashToDividendAccountInstruction",  
+          "label": "Депонирование ДС на дивидендный счет",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingBondsInstruction",
+          "label": "Депонирование облигаций",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingCashToSavingsAccountInstruction",  
+          "label": "Депонирование ДС на накопительный счет",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingSecuritiesInstruction",  
+          "label": "Депонирование ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingSecuritiesFromCDInstruction",  
+          "label": "Депонирование ЦБ из ДК",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "pledgeOfSecuritiesInstruction",  
+          "label": "Залог ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "cashClearingInstruction",  
+          "label": "Клиринг ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "securitiesClearingInstruction",
+          "label": "Клиринг ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "appointmentOfAccountManagerInstruction",
+          "label": "Назначение управляющего счетом",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "releaseOfPledgeOfSecuritiesInstruction",
+          "label": "Освобождение залога ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountOpeningInstruction",
+          "label": "Открытие счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfBlockedSecuritiesToActiveAccountsInstruction",
+          "label": "Перевод блокированных ЦБ по активным счетам",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfFreeSecuritiesToActiveAccountsInstruction",
+          "label": "Перевод свободных ЦБ по активным счетам",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfSecuritiesInstruction",
+          "label": "Перевод ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfSecuritiesToTradingSystemInstruction",
+          "label": "Перевод ЦБ в ТС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferOfSecuritiesFromTradingSystemInstruction",
+          "label": "Перевод ЦБ из ТС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "unblockingSecuritiesInstruction",
+          "label": "Снятие блокирования ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashInstruction",
+          "label": "Списание ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashByGROSSInstruction",
+          "label": "Списание ДС по ГРОССУ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffBondsInstruction",
+          "label": "Списание облигаций",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashFromSavingsAccountInstruction",
+          "label": "Списание ДС с накопительного счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashFromDividendAccountInstruction",
+          "label": "Списание ДС с дивидендного счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffSecuritiesInstruction",
+          "label": "Списание ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffSecuritiesToCDInstruction",
+          "label": "Списание ЦБ в ДК",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "movingSecuritiesThroughAccountsOfDepositorInstruction",
+          "label": "Перемещение ЦБ по счетам одного депонента",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashInstruction",
+          "label": "Списание ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashByGROSSInstruction",
+          "label": "Списание ДС по ГРОССУ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffBondsInstruction",
+          "label": "Списание облигаций",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashFromSavingsAccountInstruction",
+          "label": "Списание ДС с накопительного счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashFromDividendAccountInstruction",
+          "label": "Списание ДС с дивидендного счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffSecuritiesInstruction",
+          "label": "Списание ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffSecuritiesToCDInstruction",
+          "label": "Списание ЦБ в ДК",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "movingSecuritiesThroughAccountsOfDepositorInstruction",
+          "label": "Перемещение ЦБ по счетам одного депонента",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferSecuritiesOfDepositorToAccountOfAnotherDepositorInstruction",
+          "label": "Перевод ЦБ депонента на счет другого депонента",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferCashInstruction",
+          "label": "Перевод ДС",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "transferCashToMainAccountsOfCDInstruction",
+          "label": "Перевод ДС по основным счетам ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "accountManagerRevocationInstruction",
+          "label": "Отзыв управляющего счетом", 
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffCashOutOfScheduleInstruction",
+          "label": "Срочное списание ДС (вне регламента)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingSecuritiesOutOfScheduleInstruction",
+          "label": "Срочное депонирование ЦБ (вне регламента)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffSecuritiesOutOfScheduleInstruction",
+          "label": "Срочное списание ЦБ (вне регламента)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingBondsOutOfScheduleInstruction",
+          "label": "Срочное депонирование облигаций(вне регламента)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffBondsOutOfScheduleInstruction",
+          "label": "Срочное списание облигаций  (вне регламента)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "depositingGovernmentSecuritiesInstruction",
+          "label": "Депонирование ГЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool", 
+          "name": "writeOffGovernmentSecuritiesInstruction",
+          "label": "Списание ГЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "ReportsAccessSection",
+      "label": "Доступ к типам отчетов",
+      "contents": [
+        { 
+          "type": "Bool",
+          "name": "selectAllReportTypes",
+          "label": "Выбрать все",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "AKT_SVERKI_PO_CB_Deponenty",
+          "label": "Акт сверки по ценным бумагам на счетах депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "AKT_SVERKI_PO_CB_Registratory",
+          "label": "Акт сверки по ценным бумагам (регистраторы)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "AKT_SVERKI_VZAIMORASCHETOV",
+          "label": "Акт сверки взаиморасчетов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet__ob_operaciyah_po_CB_deponentov",
+          "label": "Отчет об операциях по ЦБ депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_hranenii_CB_na_schetah_deponentov",
+          "label": "Отчет о хранении ЦБ на счетах депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii CB_na_litcevom_schete_CD",
+          "label": "Отчет о наличии ЦБ на лицевом счете ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_CB_na_korrespondentskom_schete_CD",
+          "label": "Отчет о наличии ЦБ на корреспондентском счете ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_CB_na_schetah_deponentov",
+          "label": "Отчет о наличии ЦБ на счетах депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_dc_na_dividendnom_schete_deponenta",
+          "label": "Отчет о наличии денежных средств на дивидендном счете депонента",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_DS_na_nakopitelnyh_schetah_po_CB",
+          "label": "Отчет о наличии ДС на накопительных счетах по ЦБ на",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_DS_na_schetah_CD",
+          "label": "Отчет о наличии ДС на счетах ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_nalichii_DS_na_schetah_deponentov",
+          "label": "Отчет о наличии ДС на счетах депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_zadoljennosti_CD",
+          "label": "Отчет о задолженности ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_o_zadoljennosti_pered_CD",
+          "label": "Отчет о задолженности перед ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_obshei_zadoljennosti_CD",
+          "label": "Отчет об общей задолженности ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_obshei_zadoljennosti_pered_CD",
+          "label": "Отчет об общей задолженности перед ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_operaciyah_po_denejnym_schetam_deponentov",
+          "label": "Отчет об операциях по денежным счетам депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_operaciyah_po_dividendnym_schetam_deponentov",
+          "label": "Отчет об операциях по дивидендным счетам депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_operaciyah_po_korrespondentskomu_schetu_CD",
+          "label": "Отчет об операциях по корреспондентскому счету ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_operaciyah_po_licevomu_schetu_CD",
+          "label": "Отчет об операциях по лицевому счету ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_ob_operaciyah_po_schetam_deponentov",
+          "label": "Отчет об операциях по счетам депонентов",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_po_rynochnoi_stoimosti",
+          "label": "Отчет по рыночной стоимости ЦБ",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Otchet_po_rynochnoi_stoimosti_CB_po_deponentam",
+          "label": "Отчет по рыночной стоимости ЦБ за период (депонентам)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Plateji_CD",
+          "label": "Платежи ЦД (по операциям, по интструменту, по виду услуг)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Plateji_po_uslugam_CD",
+          "label": "Платежи по услугам ЦД",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "DPlateji_po_uslugam_CD_za_periodeponenty",
+          "label": "Платежи по услугам ЦД за период",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Vypiska_s_dividendnogo_scheta",
+          "label": "Выписка с дивидендного счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Vypiska_s_kliringovogo_scheta",
+          "label": "Выписка с клирингового счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Vypiska_s_nakopitelnogo_scheta_po_CB",
+          "label": "Выписка с накопительного счета по ЦБ на",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Vypiska_so_scheta_deponenta",
+          "label": "Выписка со счета депонента",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        { 
+          "type": "Bool",
+          "name": "Vypiska_so_schetov_deponentov_itogovaya",
+          "label": "Выписка со счетов депонентов(итоговая)",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

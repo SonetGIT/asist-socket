@@ -1,0 +1,46 @@
+{
+  "formName": "OpenBanckAccountGetListForm",
+  "defid": "c3b0e62f-ef7a-4fe5-9cdb-580845484d17",
+  "label": "Банковские реестры на открытие счетов",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "OpenBanckAccountGetList",
+      "label": "Банковский реестр",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "Номер",
+          "edit": true,
+          "show": true,
+          "required": false       
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "BankName",
+          "label": "Наименование банка",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Comments",
+          "label": "Примечание",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

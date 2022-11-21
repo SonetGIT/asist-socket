@@ -1,0 +1,133 @@
+{
+   "Administrator":{
+      "null" : [],
+      "PersonGridFormButtons":[         
+         {
+            "name":"selectButton",
+            "label":"Выбрать",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         },
+         {
+            "name":"editUser",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "CloseMonthGridFormButtons":[
+         {
+            "name":"open",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "CloseMonthDocListGridFormButtons":[
+         {
+            "name":"openClMonthDocList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "OpenBankAccountGetGridFormButtons":[
+         {
+            "name":"openBankAccountGetGrid",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "OpenBankAccRegisterDistrGridButtons":[
+         {
+            "name":"openBankAccDistrRegister",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "OpenBankAccountGetListFormButtons":[
+         {
+            "name":"openBankAccountGetList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "UploadGetListGridFormButton":[
+         {
+            "name":"openUploadGetList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "PaymentRegisterGetListGridFormButton":[
+         {
+            "name":"openPayRegisterGetList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "RegistersForPaymentDistrGridFormBotton":[
+         {
+            "name":"openPayRegisterDistrGetList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "RegistersForPaymentDistrDetailGridFormButton":[
+         {
+            "name":"openRegDistrDetailGetList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "RegistersForPaymentDistrGridFormButton":[
+         {
+            "name":"openRegDistrDetailForm",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ],
+      "PreviewRegForPayDocListFormBtn":[
+         {
+            "name":"openPreviewDocList",
+            "label":"Открыть",
+            "backgroundColor":"#4F7AAE",
+            "color":"white",
+            "marginTop": 15,
+            "marginBottom": 13
+         }
+      ]
+   }
+ }

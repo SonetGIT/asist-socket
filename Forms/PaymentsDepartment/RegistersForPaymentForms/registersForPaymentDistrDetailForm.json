@@ -1,0 +1,48 @@
+{
+  "formName": "RegistersForPaymentDistrDetailForm",
+  "defid": "4b0da14c-24cf-47a5-8142-d52fdd94efb3",
+  "label": "Реестр на оплату по району",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "RegistersForPaymentDistrDetailData",
+      "label": "Реестр на оплату по району",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "DistrictName",
+          "label": "Район",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "ApplicationCount",
+          "label": "Кол-во выплат",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "№ реестра",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        }
+      ]
+    }
+  ]
+}

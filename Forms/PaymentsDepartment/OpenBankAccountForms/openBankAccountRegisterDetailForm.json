@@ -1,0 +1,94 @@
+{
+  "formName": "OpenBankAccountRegisterDetailForm",
+  "defid": "2080fe7a-3ff4-4c77-870e-90fcfd5bb0ad",
+  "label": "Банковский реестр на открытие счетов",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "CloseMonthData",
+      "label": "Журнал закрытия месяца",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "Номер",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankName",
+          "label": "Наименование",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankCode",
+          "label": "БИК",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankAddress",
+          "label": "Адрес",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankAccountNo",
+          "label": "Расчетный счет",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "BankPercentServices",
+          "label": "Процент услуг",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "NumberCase",
+          "label": "Кол-во дел",
+          "edit": false,
+          "show": true,
+          "required": false,
+          "searchable": true
+        },
+        {
+          "type": "Text",
+          "name": "Comment",
+          "label": "Примечание",
+          "edit": false,
+          "show": true,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

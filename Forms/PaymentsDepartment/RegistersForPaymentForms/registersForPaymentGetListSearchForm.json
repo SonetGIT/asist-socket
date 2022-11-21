@@ -1,0 +1,38 @@
+{
+    "formName": "RegistersForPaymentGetListSearchForm",
+    "defid": "5aff7a5f-c8b1-4403-b929-1b24e85c4f4f",
+    "label": "Критерии поиска",
+    "sections": [
+      {
+        "type": "Section",
+        "name": "PaymentRegisterSearchData",
+        "label": "Банковский реестр",
+        "contents": [
+          {
+            "type": "Text",
+            "name": "No",
+            "label": "Номер",
+            "edit": true,
+            "show": true,
+            "required": false       
+          },
+          {
+              "type":"Int",
+              "name":"Year",
+              "label":"Год",
+              "edit":true,
+              "show":true,
+              "required":false
+          },
+          {
+            "type": "Int",
+            "name": "Month",
+            "label": "Месяц",
+            "edit": true,
+            "show": true,
+            "required": false
+          }
+        ]
+      }
+    ]
+  }

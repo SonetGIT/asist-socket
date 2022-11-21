@@ -1,0 +1,157 @@
+{
+  "Administrator": {
+    "null": [],
+    "PersonSearchButtons": [
+      {
+        "name": "findDocument",
+        "label": "Найти"
+      },
+      {
+        "name": "createDocument",
+        "label": "Создание"
+      },
+      {
+        "name": "cancel",
+        "label": "Закрыть"
+      }
+    ],
+    "PersonCreatButtons": [
+      {
+        "name": "saveDocument",
+        "label": "Сохранить"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена"
+      }
+    ],
+    "SearchUserButtons": [
+      {
+        "name": "findUser",
+        "label": "Найти"
+      },
+      {
+        "name": "createUser",
+        "label": "Создать"
+      },
+      {
+        "name": "cancel",
+        "label": "Закрыть"
+      }
+    ],
+    "CreateUserButtons": [
+      {
+        "name": "saveUser",
+        "label": "Сохранить"
+      },
+      {
+        "name": "back",
+        "label": "Назад"
+      }
+    ],
+    "EditUserButtons": [
+      {
+        "name": "updateUser",
+        "label": "Сохранить"
+      },
+      {
+        "name": "resetPassword",
+        "label": "Сбросить пароль"
+      },
+      {
+        "name": "disableUser",
+        "label": "Заблокировать"
+      },
+      {
+        "name": "enableUser",
+        "label": "Разблокировать"
+      },
+      {
+        "name": "back",
+        "label": "Назад"
+      }
+    ],
+    "CloseMonthCreateButtons": [
+      {
+        "name": "createClosedMonthList",
+        "label": "Ок",
+        "color": "snow",
+        "backgroundColor": "#D3D3FE"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена",
+        "color": "snow",
+        "backgroundColor": "#D3D3FE"
+      }
+    ],
+    "CloseMonthSearchButtons": [
+      {
+        "name": "apply",
+        "label": "Применить"
+      }
+    ],
+    "CloseMonthDocListSearchFormButtons": [
+      {
+        "name": "filterClMonthDocList",
+        "label": "Применить"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена"
+      }
+    ],
+    "OpenBankAccountGetListSearchFormButtons": [
+      {
+        "name": "filterBankAccountGetList",
+        "label": "Применить"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена"
+      }
+    ],
+    "OpenBankAccountPreviewSearchFormButtons": [
+      {
+        "name": "apply",
+        "label": "Применить"
+      }
+    ],
+    "UploadGetListSearchFormButton": [
+      {
+        "name": "applyUploadGetListSearch",
+        "label": "Применить"
+      }
+    ],
+    "UploadBankAccountFileFormButton": [
+      {
+        "name": "selectFile",
+        "label": "Выбрать"
+      },
+      {
+        "name": "sendFile",
+        "label": "Отправить"
+      },
+      {
+        "name": "clearFile",
+        "label": "Очистить"
+      }
+    ],
+    "uploadGetListSearchFormButton": [
+      {
+        "name": "applyUplodGetListSearch",
+        "label": "Применить"
+      }
+    ],
+    "RegForPayCreatDetailFormButton": [
+      {
+        "name": "createPayRegPreview",
+        "label": "Ок"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена"
+      }
+    ]
+  }
+}

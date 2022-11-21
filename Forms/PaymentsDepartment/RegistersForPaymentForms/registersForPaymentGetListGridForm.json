@@ -1,0 +1,86 @@
+{
+  "formName": "RegistersForPaymentGetListGridForm",
+  "defid": "600e980e-e2ac-4a09-b54c-3771cfdc7b68",
+  "label": "Банковские реестры на оплату",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "PaymentRegisterGridData",
+      "label": "Список банковских реестров на оплату",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "Номер ресстра",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Year",
+          "label": "Год",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Int",
+          "name": "Month",
+          "label": "Месяц",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Text",
+          "name": "BankName",
+          "label": "Банк",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Int",
+          "name": "PaymentCount",
+          "label": "Кол-во выплат",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "TotalAmount",
+          "label": "Общая сумма",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "TotalAmountWithService",
+          "label": "Общая сумма с услугой",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Text",
+          "name": "Status",
+          "label": "Статус",
+          "edit": false,
+          "show": true,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

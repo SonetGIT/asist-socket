@@ -1,0 +1,46 @@
+{
+    "formName": "UploadGetListGridForm",
+    "defid":"8e68c2a7-b786-4208-b399-7f7c07cad354",
+    "label": "Журнал загрузки",
+    "sections": [
+        {
+            "type": "Section",
+            "name": "UploadGetListGrid",
+            "label": "Журналы загрузок банковских счетов",
+            "contents": [
+                {
+                    "type":"LoadDate",
+                    "name":"Date",
+                    "label":"Дата загрузки",
+                    "edit":false,
+                    "show":true,
+                    "required":false 
+                },
+                {
+                    "type":"Int",
+                    "name":"SuccessCount",
+                    "label":"Присвоено р/счетов",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Int",
+                    "name":"ErrorCount",
+                    "label":"Ошибочных записей",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                },
+                {
+                    "type":"Int",
+                    "name":"TotalCount",
+                    "label":"Всего записей",
+                    "edit":false,
+                    "show":true,
+                    "required":false
+                }
+            ]
+        }
+    ]
+}

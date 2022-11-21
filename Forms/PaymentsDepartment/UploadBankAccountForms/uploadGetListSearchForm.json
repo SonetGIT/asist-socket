@@ -1,0 +1,23 @@
+{
+    "formName":"UploadGetListSearchForm",
+    "defid":"496b6b11-74c5-47ea-8020-b0e1ffea56d3",
+    "label":"Форма поиска",
+    "sections":[
+        {
+            "type": "Section",
+            "name": "UploadGetListSearch",
+            "label": "Критерии поиска",
+            "contents": [
+                {
+                "type": "DateTime",
+                "name": "Date",
+                "label": "Дата загрузки",
+                "edit": true,
+                "show": true,
+                "required": false,
+                "searchable": true 
+                }
+            ]
+        }
+    ]
+}

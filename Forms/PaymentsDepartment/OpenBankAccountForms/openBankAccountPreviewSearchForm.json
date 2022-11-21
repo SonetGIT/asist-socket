@@ -1,0 +1,23 @@
+{
+  "formName": "OpenBankAccountPreviewSearchForm",
+  "defid": "eb090b17-290b-440f-b42d-840922499fb2",
+  "label": "Критерии поиска",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "OpenBankAccountData",
+      "label": "Критерии поиска",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "AppNo",
+          "label": "№ заявления",
+          "edit": true,
+          "show": true,
+          "required": false,
+          "searchable": true 
+        }
+      ]
+    }
+  ]
+}

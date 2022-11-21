@@ -1,0 +1,95 @@
+{
+    "formName": "RegForPayAssignDetailForm",
+    "defid": "f8772b13-478e-45d1-8119-f5e667d9a8ae",
+    "label": "Назначение",
+    "sections":[
+        {
+            "type": "Section",
+            "name": "RegForPayAssignDetailData",
+            "label": "Назначение",
+            "contents": [
+                {
+                    "type": "Int",
+                    "name": "No",
+                    "label": "№ выплаты",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type":"Int",
+                    "name":"Year",
+                    "label":"Год",
+                    "edit":false,
+                    "show":true,
+                    "required":true,
+                    "searchable":true
+                },
+                {
+                    "type": "Int",
+                    "name": "Month",
+                    "label": "Месяц",
+                    "edit": false,
+                    "show": true,
+                    "required": true
+                },                
+                {
+                    "type":"Float",
+                    "name":"Amount",
+                    "label":"Общая сумма",
+                    "edit":false,
+                    "show":true,
+                    "required":true
+                },
+                {
+                    "type":"Text",
+                    "name":"ApplicationNo",
+                    "label":"№ заяв-я",
+                    "edit":false,
+                    "show":true,
+                    "required":true
+                },  
+                {
+                    "type": "Text",
+                    "name": "IIN",
+                    "label": "ПИН заявителя",
+                    "edit": false,
+                    "show": true,
+                    "required": false
+                },
+                {
+                    "type":"Text",
+                    "name":"LastName",
+                    "label":"Фамилия",
+                    "edit":false,
+                    "show":true,
+                    "required":true
+                },
+                {
+                    "type":"Text",
+                    "name":"FirstName",
+                    "label":"Имя",
+                    "edit":false,
+                    "show":true,
+                    "required":true
+                },
+                {
+                    "type":"Text",
+                    "name":"MiddleName",
+                    "label":"Отчество",
+                    "edit":false,
+                    "show":true,
+                    "required":true
+                },
+                {
+                  "type":"DateTime",
+                  "name":"DateOfBirth",
+                  "label":"Дата рождения",
+                  "edit":false,
+                  "show":true,
+                  "required":true
+                }            
+            ]
+        }
+    ]
+}

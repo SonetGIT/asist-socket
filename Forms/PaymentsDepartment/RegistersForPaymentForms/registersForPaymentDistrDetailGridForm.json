@@ -1,0 +1,166 @@
+  {
+  "formName": "RegistersForPaymentDistrDetailGridForm",
+  "defid": "604c19ab-8e2d-49e2-a2a7-1bce76aa0163",
+  "label": "Оплаты",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "RegistersForPaymentDistrDetailGetList",
+      "label": "Оплаты",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "BankAccount_No",
+          "label": "№ р/счета",
+          "edit": false,
+          "show": true,
+          "required": false       
+        },
+        {
+          "type": "Text",
+          "name": "Assignment_No",
+          "label": "№ выплаты",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Application_No",
+          "label": "№ заяв-я",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "DateTime",
+          "name": "Application_Date",
+          "label": "Дата регистрации",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type":"Text",
+          "name":"PersonIIN",
+          "label":"ПИН",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonLast_Name",
+          "label":"Фамилия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonFirst_Name",
+          "label":"Имя",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonMiddle_Name",
+          "label":"Отчество",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportSeries",
+          "label":"Серия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportNo",
+          "label":"№ пасспорта",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"DistrictIdName",
+          "label":"Район",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"DjamoatIdName",
+          "label":"Джамоат",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"VillageIdName",
+          "label":"Село",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"street",
+          "label":"Улица",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"House",
+          "label":"Дом",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"flat",
+          "label":"Квартира",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Int",
+          "name":"AssignmentYear",
+          "label":"Год",
+          "edit":true,
+          "show":true,
+          "required":false
+        },
+        {
+            "type": "Int",
+            "name": "AssignmentMonth",
+            "label": "Месяц",
+            "edit": true,
+            "show": true,
+            "required": false
+        },
+        {
+          "type": "Float",
+          "name": "AssignmentAmount",
+          "label": "Сумма",
+          "edit": true,
+          "show": true,
+          "required": false
+        }       
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+  {
+  "formName": "OpenBankAccDistrAppGridForm",
+  "defid": "a2368060-db94-4271-836a-fc673ebe72d5",
+  "label": "Реестр на открытие счетов",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "BankAccountDistrictGetList",
+      "label": "Районы",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "Account_No",
+          "label": "№ р/счета",
+          "edit": false,
+          "show": true,
+          "required": false       
+        },
+        {
+          "type": "DateTime",
+          "name": "OpenDate",
+          "label": "Дата р/счета",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "№ заяв-я",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата заяв-я",
+          "edit": true,
+          "show": true,
+          "required": false
+        },{
+          "type":"Text",
+          "name":"PersonIIN",
+          "label":"ПИН",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonLast_Name",
+          "label":"Фамилия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonFirst_Name",
+          "label":"Имя",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonMiddle_Name",
+          "label":"Отчество",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"DateTime",
+          "name":"PersonDate_of_Birth",
+          "label":"Дата рождения",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Gender",
+          "label":"Пол",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportSeries",
+          "label":"Серия",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"PersonPassportNo",
+          "label":"№ пасспорта",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Application_StateRegionIdName",
+          "label":"Область",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Application_StateDistrictIdName",
+          "label":"Район",
+          "edit":false,
+          "show":true,
+          "required":true
+        },
+        {
+          "type":"Text",
+          "name":"Application_StateDjamoatIdName",
+          "label":"Джамоат",
+          "edit":false,
+          "show":true,
+          "required":true
+        }
+      ]
+    }
+  ]
+}

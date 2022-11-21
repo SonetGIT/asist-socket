@@ -1,0 +1,132 @@
+{
+  "formName": "creatPersonForm",
+  "defid": "74be6cde-8acd-4c66-9a4d-4fe4100bfd4d",
+  "label": "Форма создания гражданина",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "PersonData",
+      "label": "Данные",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "national_id",
+          "label": "Националный №",
+          "edit": true,
+          "show": true,
+          "required": false       
+        },
+        {
+          "type": "Text",
+          "name": "inn",
+          "label": "ИНН",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "sin",
+          "label": "СИН",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "pin",
+          "label": "ПИН",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "last_name",
+          "label": "Фамилия",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "first_name",
+          "label": "Имя",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "middle_name",
+          "label": "Отчество",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type":"DateTime",
+          "name":"date_of_birth",
+          "label":"Дата рождения",
+          "apiName": null,            
+          "edit": true              
+        },
+        {
+          "type": "Enum",
+          "name": "sex_id",
+          "label": "Пол",
+          "enumDef": "b160735b-1ed9-443a-a6c7-2f8cf73a940f",
+          "edit": true,
+          "show": true
+        },
+        {
+          "type": "Enum",
+          "name": "family_state_id",
+          "label": "Семейное положение",
+          "enumDef": "a160443a-1ed9-735b-a6c7-2f8cf73a940f",
+          "edit": true,
+          "show": true
+        },    
+        {
+          "type": "Enum",
+          "name": "passport_type_id",
+          "label": "Типы удостоверяющих документов",
+          "enumDef": "f73a735b-1ed9-443a-a6c7-3a2f8cf7a160",
+          "edit": true,
+          "show": true
+        },
+        {
+          "type": "Text",
+          "name": "passport_series",
+          "label": "Серия",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "passport_no",
+          "label": "Номер",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "issuing_authority",
+          "label": "Выдавший орган",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type":"DateTime",
+          "name":"date_of_issue",
+          "label":"Дата выдачи",
+          "apiName": null,            
+          "edit": true              
+        }     
+      ]
+    }
+  ]
+}
