@@ -27,7 +27,7 @@
         {
           "type": "Text",
           "name": "AssignedCount",
-          "label": "Кол-во назначенных дел",
+          "label": "Кол-во наз-ых дел",
           "edit": true,
           "show": true,
           "required": false
