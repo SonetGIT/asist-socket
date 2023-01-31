@@ -1,87 +1,89 @@
 {
-   "Administrator":{
-      "null" : [],      
-      "CloseMonthPreviewTableButtons":[
-         {
-            "name":"completeCloseMonth",
-            "label":"Далее",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"cancel",
-            "label":"Отмена",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"toExcel",
-            "label":"В Excel",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         }
-      ],
-      "OpenBankAccountPreviewGridButtons":[
-         {
-            "name":"completeBankAccount",
-            "label":"Далее",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"cancel",
-            "label":"Отмена",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"toExcel",
-            "label":"В Excel",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         }
-      ],
-      "OpenBankAccountExcelTbBtn":[
-         {
-            "name":"downloadAccToExcel",
-            "label":"Выгрузка Excel",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         }
-      ],
-      "PreviewRegPayDocListTabBtn":[
-         {
-            "name":"completePreviewDocList",
-            "label":"Далее",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"cancel",
-            "label":"Отмена",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"toExcel",
-            "label":"В Excel",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         }
-      ],
-      "RegForPayDistrDocListTabBtn":[
-         {
-            "name":"downloadToExcel",
-            "label":"Выгрузка (в Excel)",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         },
-         {
-            "name":"cancel",
-            "label":"Отмена",
-            "backgroundColor":"#4F7AAE",
-            "color":"white"
-         }
-      ]
-   }
- }
+  "Administrator": {
+    "null": [],
+    "TblPersonCreatBtn": [
+      {
+        "name": "createDocument",
+        "label": "Cоздать",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ],
+    "CloseMonthPreviewTableButtons": [
+      {
+        "name": "completeCloseMonth",
+        "label": "Далее",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "toExcel",
+        "label": "В Excel",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ],
+    "OpenBankAccountPreviewGridButtons": [
+      {
+        "name": "completeBankAccount",
+        "label": "Далее",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "toExcel",
+        "label": "В Excel",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ],
+    "OpenBankAccountExcelTbBtn": [
+      {
+        "name": "downloadAccToExcel",
+        "label": "Выгрузка Excel",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ],
+    "PreviewRegPayDocListTabBtn": [
+      {
+        "name": "completePreviewDocList",
+        "label": "Далее",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "cancel",
+        "label": "Отмена",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      },
+      {
+        "name": "toExcel",
+        "label": "В Excel",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ],
+    "RegForPayDistrDocListTabBtn": [
+      {
+        "name": "downloadToExcel",
+        "label": "В Excel",
+        "backgroundColor": "#4F7AAE",
+        "color": "white"
+      }
+    ]
+  }
+}

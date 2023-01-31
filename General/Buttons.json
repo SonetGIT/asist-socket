@@ -7,15 +7,11 @@
         "label": "Найти"
       },
       {
-        "name": "createDocument",
-        "label": "Создание"
-      },
-      {
         "name": "cancel",
         "label": "Закрыть"
       }
     ],
-    "PersonCreatButtons": [
+    "PersonSaveButtons": [
       {
         "name": "saveDocument",
         "label": "Сохранить"

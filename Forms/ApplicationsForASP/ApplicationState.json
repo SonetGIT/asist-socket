@@ -1,0 +1,731 @@
+{
+  "formName": "Application_State",
+  "defid": "547BBA55-2281-4388-A1FC-EE890168AC2D",
+  "label": "Анкета домохозяйства",
+  "sections": [
+    {
+      "type": "Section",
+      "name": "Application_State",
+      "label": "Адресные данные заявителя",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "street",
+          "label": "Улица",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "House",
+          "label": "Дом",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "flat",
+          "label": "Квартира",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Number_h",
+          "label": "Телефон сотовый",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "Number_c",
+          "label": "Телефон домашний",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Text",
+          "name": "E_mail",
+          "label": "E-mail",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "FamilyCompositionInformation",
+      "label": "Информация о составе семьи",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "all",
+          "label": "Всего членов семьи (включая главу семьи)",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Int",
+          "name": "group_1",
+          "label": "Инвалидов I группы",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "children_disabilities",
+          "label": "Детей инвалидов",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Children_under_16",
+          "label": "Детей до 16 лет",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Older_than_65",
+          "label": "Пожилих людей старше 65 лет",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "StudentsCount",
+          "label": "Кол. студентов среди членов ДМХ",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Children_12_14",
+          "label": "Кол-во детей от 12 до 14 лет среди членов ДМХ",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "group_2",
+          "label": "Инвалидов II группы",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Ages",
+          "label": "Возраст на момент расчета",
+          "edit": false,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "group_3",
+          "label": "Инвалидов III группы",
+          "edit": false,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "DisabilityHeadFamily",
+      "label": "Инвалидность главы семьи",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "Disability",
+          "label": "Инвалидность",
+          "enumDef": "F38FC8F6-E925-434E-8DFC-EF8937A0BE9B",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "DisabilityGroupe",
+          "label": "Группа",
+          "enumDef": "37D69002-73CA-4507-9227-A57EA262B536",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "InformationHeadDMX",
+      "label": "2. Информация о главе домохозяйства",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "education",
+          "label": "Образование главы домохозяйства",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "employment",
+          "label": "Род занятости главы домохозяйства за последние 3 месяца",
+          "enumDef": "3E3E0163-23BD-4B9C-A118-3648283C1DE1",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "TDP",
+      "label": "3. Наличие товаров длительного пользования (ТДП) (Укажите количество следующих товаров длительного пользования (только ТДП в исправном состоянии))",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "CarAmount",
+          "label": "Легковой автомобиль",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "TruckAmount",
+          "label": "Грузовик",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "TractorAmount",
+          "label": "Трактор",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "BulldozerAmount",
+          "label": "Бульдозер",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "OtherSpecialEquipmentAmount",
+          "label": "Другая спец-техника",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "TVAmount",
+          "label": "Телевизор",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "ComputerAmount",
+          "label": "Компьютер",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "SatelliteDishAmount",
+          "label": "Спутниковая антенна",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "GeneratorAmount",
+          "label": "Генератор",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "RefrigeratorAmount",
+          "label": "Холодильник",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Conditioner",
+          "label": "Кондиционер",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "StoveAmount",
+          "label": "Плита (газ, электр.)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "SewingMachineAmount",
+          "label": "Швейная машина (электр./ручная/с педалью)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "HeaterAmount",
+          "label": "Обогреватель (элект.)",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "HavingAnimals",
+      "label": "4.Наличие скота, домашней птицы, и других животных",
+      "contents": [
+        {
+          "type": "Int",
+          "name": "horse",
+          "label": "Лошади",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "cows",
+          "label": "Коровы(буйволы, яки)",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "sheep",
+          "label": "Овцы",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "goats",
+          "label": "Козы",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "donkeys",
+          "label": "Осел/Ишак",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "poultry",
+          "label": "Домашняя птица",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Rabbits",
+          "label": "Кролики",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Int",
+          "name": "Bee",
+          "label": "Пчелы (кол-во ульев)",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "RealEstate2",
+      "label": "6. Наличие другой недвижимости",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "HasOtherHome",
+          "label": "Есть ли в Вашем распоряжении другая недвижимость, пригодная к проживанию (а именно, другой дом, квартира, или дача) и находящаяся в собственности домохозяйства)?",
+          "enumDef": "3A841108-EB67-40EA-AA07-AC0849237883",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Enum",
+          "name": "HasOtherBusinessBuilding",
+          "label": "Есть ли в вашем распоряжении коммерческая недвижимость (а именно склад, магазин, гараж, мастерская, или торговая точка)",
+          "enumDef": "3A841108-EB67-40EA-AA07-AC0849237883",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "LivingConditions",
+      "label": "7. Жилищные условия",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "Family_dwelling",
+          "label": "Жилое помещение семьи",
+          "enumDef": "3C9C6B02-F0CE-4E88-9D48-B47E09CAD8B8",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Enum",
+          "name": "HouseState",
+          "label": "В каком состоянии жилое помещение?",
+          "enumDef": "62F1128C-938B-4F79-9762-A12216ED5045",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Int",
+          "name": "living_space",
+          "label": "Жилая площадь без кухни и коридора (кв.м.)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Int",
+          "name": "Number_rooms",
+          "label": "Количество комнат",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "HouseholdServices",
+      "label": "Использует ли ваше домохозяйство следующие виды услуг?",
+      "contents": [
+        {
+          "type": "Bool",
+          "name": "UseServiceOdGarbageDispose",
+          "label": "Вывоз мусора",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "UseServiceOfHomePhone",
+          "label": "Телефон (домашний)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "UseServiceOfElectricity",
+          "label": "Электричество",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "UseServiceOfHotWater",
+          "label": "Вода горячая",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "UseServiceOfWater",
+          "label": "Вода холодная по трубопроводу",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "BathShower",
+      "label": "У Вас в доме имеется ванна/душ с водонагревателем?",
+      "contents": [
+        {
+          "type": "Bool",
+          "name": "HasBathroom",
+          "label": "Да",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Bool",
+          "name": "HasntBathroom",
+          "label": "Нет",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "PresenceCounter",
+      "label": "У Вас дома установлен электрический счетчик? (ВЫБРАТЬ ТОЛЬКО 1 ВАРИАНТ ОТВЕТА)",
+      "contents": [
+        {
+          "type": "Bool",
+          "name": "HasElectricityCounter",
+          "label": "Да, установлен",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Bool",
+          "name": "HasntElectricityCounter",
+          "label": "Нет, не установлен",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Bool",
+          "name": "HasntEvenElectricity",
+          "label": "Не проведено эл-во в дом",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "",
+      "label": "",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "DrinkingWaterSource",
+          "label": "Что является основным источником питьевого водоснабжения Вашего жилья?",
+          "enumDef": "5686B06B-1CFA-4D59-AA57-1E1BC92DCAFA",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "PowerToCoocking",
+          "label": "Что является основным источником энергии для приготовления пищи?",
+          "enumDef": "23676502-06ED-416C-A26A-85214C2D8202",
+          "edit": true,
+          "show": true,
+          "required": false
+        },
+        {
+          "type": "Enum",
+          "name": "SourceForHeater",
+          "label": "Что является основным источником отопления ВО ВРЕМЯ ОТОПИТЕЛЬНОГО СЕЗОНА?",
+          "enumDef": "02FEBBCB-49C3-496F-B18A-ACE4D8A2B7CD",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "Emergencies",
+      "label": "9. Чрезвычайные ситуации",
+      "contents": [
+        {
+          "type": "Bool",
+          "name": "mchs1",
+          "label": "Потеря имущества от стихийного бедствия (пожара, наводнения, землетрясения)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "mchs2",
+          "label": "Засуха, болезнь растений вредители сельхозкультур",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "mchs3",
+          "label": "Падёж, угон, потеря скота, падёж птицы",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "RemotenessInstitutions",
+      "label": "10. Удаленность от образовательных и медицинских учреждений",
+      "contents": [
+        {
+          "type": "Enum",
+          "name": "TimeOfWalking1",
+          "label": "Если дети в Вашей семье ходят в школу, сколько времени требуется для того, чтобы детям утром добраться до школы (если разные школы, укажите ближайшую, в которую ходит кто-то из ваших детей или внуков)",
+          "enumDef": "24176A9B-2E8D-4A8E-A87A-FD01435C3B69",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Enum",
+          "name": "TimeOfWalking2",
+          "label": "При необходимости, сколько времени Вам потребовалось бы, чтобы добраться до ближайшего государственного или частного мед учреждения (поликлиники или больницы)",
+          "enumDef": "24176A9B-2E8D-4A8E-A87A-FD01435C3B69",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "CostInformation",
+      "label": "Информация о расходах семьи в течение 12 месяцев до обращения за АСП",
+      "contents": [
+        {
+          "type": "Currency",
+          "name": "amount_of_electricity",
+          "label": "Общая сумма выплат за электричество",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Currency",
+          "name": "amount_of_fuel",
+          "label": "Общая сумма выплат за топливо (уголь, дрова)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Currency",
+          "name": "amount_of_schoolfees",
+          "label": "Общая сумма выплат за учебу детей в школе",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "name": "",
+      "label": "",
+      "contents": [
+        {
+          "type": "Currency",
+          "name": "KON",
+          "label": "Сумма коэффициентов",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Currency",
+          "name": "KONNew",
+          "label": "Сумма коэффициентов (новая)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "BALL",
+          "label": "БАЛЛ",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "HasDiscount",
+          "label": "Дисконт",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "BALLNew",
+          "label": "БАЛЛ (новый)",
+          "edit": true,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Float",
+          "name": "LimitAcceptance",
+          "label": "Порог прохождения",
+          "edit": true,
+          "show": true,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

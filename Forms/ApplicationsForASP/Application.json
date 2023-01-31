@@ -1,12 +1,51 @@
 {
-  "formName": "creatPersonForm",
-  "defid": "6052978A-1ECB-4F96-A16B-93548936AFC0",
-  "label": "Форма создания гражданина",
+  "formName": "ApplicationDetailedForm",
+  "defid": "4F9F2AE2-7180-4850-A3F4-5FB47313BCC0",
+  "label": "Заявление на АСП",
   "sections": [
     {
       "type": "Section",
+      "name": "ApplicationData",
+      "label": "Заявление на АСП",
+      "contents": [
+        {
+          "type": "Text",
+          "name": "No",
+          "label": "Номер заявления",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "DateTime",
+          "name": "Date",
+          "label": "Дата регистрации в сист-е",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "DateTime",
+          "name": "ApplicationDate",
+          "label": "Дата подачи заявления",
+          "edit": false,
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "Bool",
+          "name": "forVerification",
+          "label": "На верификацию",
+          "edit": true,
+          "show": true,
+          "required": false
+        }
+      ]
+    },
+    {
+      "type": "Doc",
       "name": "PersonData",
-      "label": "Форма создания гражданина",
+      "label": "Гражданин",
       "contents": [
         {
           "type": "Text",

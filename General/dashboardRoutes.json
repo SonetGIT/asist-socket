@@ -1,8 +1,8 @@
 {
   "level2": [
     {
-      "name": "administartor",
-      "label": "Администратор",
+      "name": "benefitsASP",
+      "label": "Пособия на АСП",
       "state": true,
       "launchProcess": false,
       "commandType": null,
@@ -10,27 +10,19 @@
       "parentLabel": null,
       "level3": [
         {
-          "commandType": "launchProcess",
-          "processKey": "process_",
-          "name": "usersMenu",
-          "label": "Пользователи",
-          "parentLabel": "Пользователи",
-          "level4": null
-        },
-        {        
-          "commandType": "launchProcess",
-          "processKey": "process_",
-          "name": "createAppMenu",
+          "name": "createApplication",
           "label": "Создать",
           "parentLabel": "Создать",
+          "commandType": "launchProcess",
+          "processKey": "process_22d2b2bf-ce8d-41d3-9b97-5bd8b112f2ce",
           "level4": null
         },
-        {          
-          "commandType": "insertForm",
-          "processKey": "process_db982dae",
-          "name": "insertFormsMenu",
-          "label": "Обновить формы",
-          "parentLabel": "Формы",
+        {
+          "name": "createApplication",
+          "label": "Для тестирование форм",
+          "parentLabel": "Для тестирование форм",
+          "commandType": "launchProcess",
+          "processKey": "process_7970005f-69f9-4fb5-90e9-d5d09c71ab1f",
           "level4": null
         }
       ]
@@ -53,7 +45,7 @@
           "processKey": "process_e7e8bbc9-a63e-44a3-9f98-b17d6592e7ed",
           "parentLabel": "Список закрытых месяцев",
           "level4": [
-            {   
+            {
               "commandType": "launchProcess",
               "processKey": "process_c7291091-e99a-4f4e-9934-e6ea0bcdf387",
               "name": "closeMonthMenu",
@@ -64,12 +56,12 @@
         },
         {
           "name": "openBankAccountGetList",
-          "label": "Реестры на открытие банковских счетов",
+          "label": "Реестры на открытие банк-х счетов",
           "state": true,
           "launchProcess": true,
           "commandType": "launchProcess",
           "processKey": "process_8d77e93f-a747-407f-ba59-7cbec3f2a741",
-          "parentLabel": "Банковские реестры на открытие счетов",
+          "parentLabel": "Реестры на открытие счетов",
           "level4": [
             {
               "commandType": "launchProcess",
@@ -82,21 +74,21 @@
         },
         {
           "name": "uploadGetList",
-          "label":"Журнал загрузки",
-          "state":true,
-          "launchProcess":true,
-          "commandType":"launchProcess",
-          "processKey":"process_9f1b8d28-6ee7-4e8a-b66f-b3d24a2152c6",
-          "parentLabel":"Журналы загрузок банк-х счетов",
-          "level4":[
+          "label": "Журнал загрузки",
+          "state": true,
+          "launchProcess": true,
+          "commandType": "launchProcess",
+          "processKey": "process_9f1b8d28-6ee7-4e8a-b66f-b3d24a2152c6",
+          "parentLabel": "Журналы загрузок банк-х счетов",
+          "level4": [
             {
-              "commandType":"launchProcess",
-              "processKey":"process_f33bd827-551c-4e98-96af-798ceac2ca29",
-              "name":"uploadBankAccount",
-              "label":"Загрузка счетов",
-              "parentLabel":"Загрузка счетов"
+              "commandType": "launchProcess",
+              "processKey": "process_f33bd827-551c-4e98-96af-798ceac2ca29",
+              "name": "uploadBankAccount",
+              "label": "Загрузка счетов",
+              "parentLabel": "Загрузка счетов"
             }
-          ]          
+          ]
         },
         {
           "name": "registerForPaymentGetList",
@@ -105,7 +97,7 @@
           "launchProcess": true,
           "commandType": "launchProcess",
           "processKey": "process_ee81665d-7569-40b7-bad3-6f31888e0d59",
-          "parentLabel": "Банковские реестры на открытие счетов",
+          "parentLabel": "Реестры на открытие счетов",
           "level4": [
             {
               "commandType": "launchProcess",
@@ -129,6 +121,41 @@
               "parentLabel": "Отказанные"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "administartor",
+      "label": "Администратор",
+      "state": true,
+      "launchProcess": false,
+      "commandType": null,
+      "processKey": null,
+      "parentLabel": null,
+      "level3": [
+        {
+          "commandType": "launchProcess",
+          "processKey": "process_",
+          "name": "usersMenu",
+          "label": "Пользователи",
+          "parentLabel": "Пользователи",
+          "level4": null
+        },
+        {
+          "commandType": "launchProcess",
+          "processKey": "process_",
+          "name": "createAppMenu",
+          "label": "Создать",
+          "parentLabel": "Создать",
+          "level4": null
+        },
+        {
+          "commandType": "insertForm",
+          "processKey": "process_db982dae",
+          "name": "insertFormsMenu",
+          "label": "Обновить формы",
+          "parentLabel": "Формы",
+          "level4": null
         }
       ]
     }

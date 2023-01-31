@@ -19,11 +19,12 @@ var path = require("path");
 const CamundaApiHost = "http://192.168.2.19:8080/engine-rest"; // Camunda REST //статический адрес
 const metaRESTApi = "http://192.168.2.150:5656"; // Depo main REST/нах-ся - meta data
 //const asistRESTApi = "http://192.168.0.54:80" // Depo main REST
-const asistRESTApi = "http://192.168.2.150"; // Depo main REST
+const asistRESTApi = "http://192.168.2.150"; // ASIST main REST
 const keycloakRESTApi = "http://192.168.2.160:8080"; // Keycloak REST
 const jasperRESTApi = "http://192.168.2.150:8080"; // Jasper REST
-const keycloackRoleId = "e0571b5a-3f10-4aa3-a975-86e1bc58af0f";
+const keycloackRoleId = "dced7bea-8a93-4baf-964b-232e75a758c5";
 const filesDirectory = "C:/ScannedFiles/"; // Contracts files directory
+const enumDataApi = "/ASIST-MODERN-API/api/Enum/GetEnumItems?enumDefId=";
 
 // RESTS SERVER - 54
 // const CamundaApiHost = 'http://10.10.0.12:8080/engine-rest' // Camunda REST
@@ -242,22 +243,23 @@ async function getObjectTypeData(id, varName) {
   return objectTypeData;
 }
 async function getEnumData(Form) {
-  // console.log("Form", Form.formName)
+  console.log("Form", Form.formName);
   var enumData = [];
   for (var section = 0; section < Form.sections.length; section++) {
     for (var item = 0; item < Form.sections[section].contents.length; item++) {
       // console.log("ENUMDEF NAME", Form.sections[section].contents[item].name, "ENUMDEF", Form.sections[section].contents[item].enumDef)
       if (Form.sections[section].contents[item].type === "Enum") {
-        // let apiName = Form.sections[section].contents[item].apiName
         let enumName = Form.sections[section].contents[item].name;
         // console.log("ENUM NAME", enumName)
         let enumDef = Form.sections[section].contents[item].enumDef;
-        let apiName = ConfigurationFile.enumConfig[enumDef].apiName;
+        // let apiName = ConfigurationFile.enumConfig[enumDef].apiName;
+        let apiName = enumDataApi + enumDef;
         let newEnumList = await getEnumValues(apiName, enumName, enumDef);
         enumData.push(newEnumList);
       }
     }
   }
+  // console.log("APINAME", apiName);
   // console.log("Enums", enumData)
   return enumData;
 }
@@ -270,8 +272,8 @@ async function getEnumValues(apiName, enumName, enumDef) {
   })
     .then(function (response) {
       let resp = JSON.parse(response);
-      let parsedData = resp.value;
-      //console.log("ПРИМЕР ОТВЕТА JSON ОБЪЕКТА", response, resp)
+      let parsedData = resp;
+      console.log("ПРИМЕР ОТВЕТА JSON ОБЪЕКТА", response, resp);
       let newEnumData = [];
       let dataToCollect = ConfigurationFile.enumConfig[enumDef].data;
       for (let key = 0; key < parsedData.length; key++) {
@@ -437,6 +439,10 @@ async function sendPersonForm(message, taskID, restore) {
   // console.log("FORM", userForm)
   buttons =
     Buttons[ConfigurationFile.rolesConfig[message.userRole]][message.buttons];
+  tableFormButtons =
+    TableFormButtons[ConfigurationFile.rolesConfig[message.userRole]][
+      message.tableFormButtons
+    ];
 
   var enumData = await getEnumData(personForm);
 
@@ -460,6 +466,7 @@ async function sendPersonForm(message, taskID, restore) {
     page: message.page,
     formType: message.formType,
     gridFormButtons: gridFormButtons,
+    tableFormButtons: tableFormButtons,
     buttons: buttons,
     taskID: taskID,
     docId: message.docId,
@@ -467,7 +474,7 @@ async function sendPersonForm(message, taskID, restore) {
     process_id: message.process_id,
     tabLabel: message.tabLabel,
   };
-  console.log("Sending User Form");
+  console.log("Sending User Form", mes);
   await sendMessage(mes);
 }
 // Collect data related to CloseMonth form and send to client
